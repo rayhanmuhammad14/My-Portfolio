@@ -52,7 +52,7 @@ html{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: linear-gradient(rgb(255, 255, 255), rgb(250, 225, 216));
+        background-image: linear-gradient(rgb(250, 225, 216), white);
     }
 
     .contact-cardMain{
@@ -86,7 +86,7 @@ html{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: linear-gradient(rgb(255, 255, 255), rgb(250, 225, 216));
+        background-image: linear-gradient(rgb(250, 225, 216), white);
     }
 
     .contact-cardMain{
