@@ -8,7 +8,7 @@ html{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(250, 225, 216));
+    background-image: linear-gradient(rgb(250, 225, 216), white);
     padding: 60px;
 }
 
