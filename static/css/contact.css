@@ -65,14 +65,10 @@ html{
         width: 100%;
     }
 
-    .contact-cardAbout{
-        display: none;
-    }
-
     .contact-cardLogo img{
         border-radius: 50%;
         border: 2px solid orangered;
-        width: 50%;
+       
     }
 }
 
