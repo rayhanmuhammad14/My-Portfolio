@@ -75,7 +75,7 @@ ul li:hover{
     }
 
     .navbar-icon-toggle span {
-        background-color: black;
+        background-color: orangered;
         display: block;
         width: 25px;
         height: 3px;
