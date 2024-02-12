@@ -43,3 +43,59 @@ ul li:hover{
     font-weight: bold;
     cursor: pointer;
 }
+
+/* FIXED */
+@media only screen and (max-width: 40em) {
+    html{
+        font-size: 60%;
+    }
+
+    .container .navbar .menu ul{
+        position: absolute;
+        right: 0;
+        top: 63px;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        z-index: -1;
+        background-image: linear-gradient(rgb(255, 134, 91), rgb(250, 225, 216));
+        transform: translateX(100%);
+        transition: ease-in-out 0.5s;
+    }
+
+    .navbar .menu ul li{
+        margin-bottom: 50px;
+    }
+
+    .navbar .menu ul.slide{
+        transform: translateX(0);
+        transition: ease-in-out 0.5s;
+    }
+
+    .navbar-icon-toggle span {
+        background-color: black;
+        display: block;
+        width: 25px;
+        height: 3px;
+        border-radius: 3px;
+    }
+
+    .navbar-icon-toggle{
+        display: flex;
+        flex-direction: column;
+        height: 20px;
+        justify-content: space-between;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .navbar-icon-toggle input{
+        position: absolute;
+        width: 26px;
+        height: 25px;
+        opacity: 0;
+        cursor: pointer;
+    }
+}
