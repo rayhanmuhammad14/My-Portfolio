@@ -53,7 +53,7 @@ ul li:hover{
     .container .navbar .menu ul{
         position: absolute;
         right: 0;
-        top: 63px;
+        top: 0;
         flex-direction: column;
         width: 50%;
         height: 100vh;
